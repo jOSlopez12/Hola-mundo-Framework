@@ -8,10 +8,12 @@
         body{font-family: Arial, sans-serif; padding: 2rem;}
         .card{border:1px solid #ddd; padding:1rem; border-radius:6px; max-width:800px}
         h1{color:#2b6cb0}
+        .nombre{text-align:center;}
     </style>
 </head>
 <body>
     <div class="card">
+        <h2 class="nombre">Jostyn Lopez 2026</h2>
         <h1><?= esc($title) ?></h1>
         <p><?= esc($mensaje) ?></p>
         <p>Ruta: <code>/home</code></p>
